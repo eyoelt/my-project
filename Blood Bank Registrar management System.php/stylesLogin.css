@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(Images/kk.jpg);
+	background-size: cover;
+}
+.loginBox{
+	position: absolute;
+	margin-top: 9%;
+	top: 58%;
+	left: 49.5%;
+	transform:translate(-50%,-50%);
+	-webkit-box-shadow: 3px 7px 2px #000;
+     -moz-box-shadow: 3px 7px 1px #000;
+     -ms-box-shadow: 3px 7px 1px #000;
+     box-shadow: 3px 7px 3px #000;
+	width: 480px;
+	height: 530px;
+	padding: 60px 40px;
+	border-radius: 7px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.5);
+}
+.user{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-60px/4);
+	left: calc(50% - 50px);
+}
+.h2{
+	margin-top:0px;
+	padding: -220px;
+	color: #040404;
+    font-size: 20px;
+	text-align: center;
+}
+.loginBox p{
+	margin: -10px;
+	padding:-15px;
+	font-size: 15px;
+	color: #ffffff;
+}
+.loginBox input{
+	width:100%;
+	margin-bottom:5px;
+}
+input[type=text],
+input[type=number],
+select,textarea,
+input[type=file],
+input[type=email],
+input[type=date],
+input[type=time],
+input[type=password] {
+ color: #000;
+ padding-left: 10px;
+ margin: 10px;
+ margin-top: 12px;
+ margin-left: 18px;
+ width: 260px;
+ height: 30px;
+ border: 1px solid #bdd8fb;
+ border-radius: 10px;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #bed9fc;
+ -webkit-transition: all .4s ease;
+ -moz-transition: all .4s ease;
+ transition: all .4s ease;
+}
+ 
+input[type=text]:hover,
+input[type=number]:hover,
+select:hover,
+textarea:hover,
+input[type=file]:hover,
+input[type=email]:hover,
+input[type=date]:hover,
+input[type=time]:hover,
+input[type=password]:hover {
+ border: 1px solid #062e64;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #D6AE58;
+}
+ 
+input[type=text]:focus{
+ border: 1px solid #a8c9e4;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+input[type=password]:focus {
+ border: 1px solid #a8c9e4;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+select:focus {
+ border: 1px solid #a8c9e4;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+}
+input[type=number]:focus,
+input[type=date]:focus,
+input[type=time]:focus,
+textarea:focus,
+input[type=file]:focus,
+input[type=email]:focus{
+ border: 1px solid #a8c9e4;
+ box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
+
+}
+.loginBox input[type="Submit"],
+.loginBox input[type="Reset"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	width: 110px;
+	color: #fff;
+	font-size: 16px;
+	background:#062e64;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.loginBox input[type="Submit"]:hover{
+	background:#0f2c8e;
+	border:2px solid #147d98;
+	font-size: 16px;
+	color: #fcfcfc;
+	}
+.loginBox input[type="Reset"]:hover{
+	background:#0f2c8e;
+	font-size: 16px;
+	border:2px solid #147d98;
+	color: #fcfcfc;
+	}
+.loginBox a{
+	color: #262626;
+	font-size: 14px;
+	font-weight: bold;;
+	text-decoration: none;
+	}
+.checkbox {
+ margin-bottom:90%;
+ font-size: 16px;
+ color: #010405;
+ font-weight: bold;
+ text-shadow: 3 1px 5 #021d2b;
+}
+.input[type=button]{
+ color: #f02462;
+ padding-left: 10px;
+ background-color: #69aba2;
+ width: 200px;
+ height: 20px;
+ border: 1px solid #16167c;
+ border-radius: 10px;
+}
+input[type=button]:hover {
+color: #f1fef4;
+background-color: #021213;
+}
+input[type=button]:active {
+color: #f8fefe;
+background-color: #877788;
+}	
+.Available{
+color: #11bf0d;
+font-weight: bold;
+background-color: #fff9f9;
+}
+
+			

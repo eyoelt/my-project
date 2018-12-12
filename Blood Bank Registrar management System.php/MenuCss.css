@@ -1,0 +1,82 @@
+<style>
+body{
+background-image:url('kk.jpg');
+background-size:cover;
+font-family:Nyala፤
+font-size:20px;
+margin:0;
+line-height:24px;
+}
+.navbar{
+text-align:center;
+width:100%;
+background:blue;
+border-radius:10px;
+opacity:0.5;
+}
+.navbar ul{
+margin:5px;
+padding:0;
+list-style:none;
+text-justify: auto;
+position:relative;
+font-size:25px;
+}
+.navbar ul li a{
+padding:6px;
+color:white;
+text-decoration:none;
+width:150px;
+}
+.navbar ul:after {
+content:" "; clear both;
+border-radius:10px;
+color:SlateBlue;
+}
+.navbar ul li {
+float:left;
+list-style:none;
+}
+.navbar ul ul {
+}
+.navbar ul li :hover > ul{
+text-decoration: underline;
+color: #f7fdff;
+font-size: 20px;
+font-family: Nyala;
+}
+.navbar ul li :hover{
+background:black;
+transition:0.9s;
+text-decoration: underline;
+color: #fffbfb;
+font-size: 20px;
+font-family: Nyala;
+}
+.navbar ul li :hover a{
+color:gray;
+}
+.navbar ul ul{
+background:red;
+padding:0;
+margin:0;
+position:absolute;
+top:100%;
+}
+.navbar ul ul li{
+float:none;
+position:relative;
+}
+.navbar ul ul li a{
+padding:25px;
+color:red;
+width:300px;
+text-align:left;
+}
+.navbar ul ul li a:hover{
+background-color:blue;
+color:black;
+transition:0.9s;
+}
+
+</style>
